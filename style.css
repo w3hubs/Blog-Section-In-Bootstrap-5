@@ -1,0 +1,96 @@
+/*W3hubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,
+Bootstrap which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross 
+browser supported, best quality world class designs.*/
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+body {
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+font-family: 'Duru Sans', sans-serif;
+}
+img {
+width: 100%;
+box-shadow: -3px -1px 20px #cfcfcf;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+h1 {
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+h2 {
+font-weight: 700;
+font-size: 18px;
+}
+a{
+width: 100%;
+color: #fff;
+font-weight: 600;
+text-align: center;
+padding: 8px;
+margin: 0 auto;
+display: block;
+border-radius: 38px;
+text-decoration: none;
+}
+span{
+color: #0b53bd;
+}
+
+.card {
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+border-radius: 8px;
+height: 100%;
+}
+.details {
+padding: 20px 15px 25px;
+}
+.tag {
+color: #556291;
+font-weight: 700;
+}
+.btn1 {
+background: #900C3F;
+}
+.btn1:hover {
+color: #fff;
+background: #5B1505;
+text-decoration: none;
+}
+.btn2 {
+background: #FF5733;
+}
+.btn2:hover {
+color: #fff;
+background: #F64722;
+text-decoration: none;
+}
+.btn3 {
+background: #1F618D;
+}
+.btn3:hover {
+color: #fff;
+background: #1A5276;
+text-decoration: none;
+}
+@media(min-width: 992px){
+a{
+width: 60%;
+padding: 15px;
+}
+h2{
+font-size: 28px;
+}
+img{
+	height: 325px;
+}
+}
+@media(max-width: 768px){
+.col-md-4{
+margin-bottom: 25px;
+}
+.tag{
+margin-bottom: 10px;
+}
+}
